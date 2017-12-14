@@ -1,0 +1,35 @@
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgba(0,0,0,.8);
+  font-weight: bold;
+  text-align: center;
+}
+
+.slide-container {
+  background-color: lightgrey;
+  width: 720px;
+  position: relative;
+  left: calc(50% - 360px);
+  height: 400px;
+  overflow: hidden;
+}
+
+.slide-container div.slides {
+  width: 6000px;
+  height: 400px;
+  background-color: rgba(200,0,0,.4);
+  margin: 0;
+  padding: 0;
+}
+
+.slide-container img.slide {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 720px;
+  height: 400px;
+}
